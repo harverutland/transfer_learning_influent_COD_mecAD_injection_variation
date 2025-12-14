@@ -8,8 +8,8 @@ venv/
 .venv/
 .env/
 
-# --- Datasets ---
-datasets/
+# # --- Datasets ---
+# datasets/
 
 # --- Python cache ---
 __pycache__/
