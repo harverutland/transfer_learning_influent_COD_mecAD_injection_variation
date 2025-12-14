@@ -1,0 +1,39 @@
+# ==========================
+# Python project .gitignore
+# ==========================
+
+# --- Virtual environments ---
+env/
+venv/
+.venv/
+.env/
+
+# --- Datasets ---
+datasets/
+
+# --- Python cache ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# --- Logs and checkpoints ---
+*.log
+*.ckpt
+*.h5
+
+# --- Jupyter Notebook checkpoints ---
+.ipynb_checkpoints/
+
+# --- IDE / Editor settings ---
+.vscode/
+.idea/
+
+# --- OS generated files ---
+.DS_Store
+Thumbs.db
+
+# --- Model artifacts ---
+*.pkl
+*.joblib
+transfer_learning_model_params/
