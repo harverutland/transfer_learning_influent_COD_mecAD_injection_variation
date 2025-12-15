@@ -12,7 +12,7 @@ The experiment follows three main stages:
 
 1. **Pretraining (source models)**
 2. **Baseline evaluation on target data**
-3. **Aggregation and visualization of results**
+3. **Aggregation and visualisation of results**
 
 The core question being tested is:
 
@@ -29,7 +29,7 @@ The core question being tested is:
   - A **transfer model** is initialized from a pretrained model and further trained on the same target subset.
 - Both models are evaluated on the **same holdout split** of the target dataset.
 
-To avoid bias from monotonic trial trends (e.g. data quality changing over time), randomized sampling and splitting are used.
+To avoid bias from monotonic trial trends (e.g. data quality changing over time), randomised sampling and splitting are used.
 
 ---
 
@@ -125,7 +125,7 @@ Transfer learning here means **adding trees to an existing XGBoost model**, not 
 
 ---
 
-### 3. Aggregation and visualization
+### 3. Aggregation and visualisation
 
 Results are aggregated across seeds and pretraining percentages.
 
