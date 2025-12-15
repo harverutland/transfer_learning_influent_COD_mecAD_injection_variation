@@ -29,7 +29,7 @@ The core question being tested is:
   - A **transfer model** is initialized from a pretrained model and further trained on the same target subset.
 - Both models are evaluated on the **same holdout split** of the target dataset.
 
-To avoid bias from monotonic trial trends (e.g. data quality changing over time), randomized sampling and splitting are used.
+To avoid bias from monotonic trial trends (e.g. data quality changing over time), randomised sampling and splitting are used.
 
 ---
 
