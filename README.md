@@ -12,7 +12,7 @@ The experiment follows three main stages:
 
 1. **Pretraining (source models)**
 2. **Baseline evaluation on target data**
-3. **Aggregation and visualization of results**
+3. **Aggregation and visualisation of results**
 
 The core question being tested is:
 
@@ -125,7 +125,7 @@ Transfer learning here means **adding trees to an existing XGBoost model**, not 
 
 ---
 
-### 3. Aggregation and visualization
+### 3. Aggregation and visualisation
 
 Results are aggregated across seeds and pretraining percentages.
 
