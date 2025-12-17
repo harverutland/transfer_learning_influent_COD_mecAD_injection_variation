@@ -1,0 +1,9 @@
+.venv
+__pycache__/
+.ipynb_checkpoints/
+results/
+figures/
+transfer_learning_model_params/
+model_params/
+*.pkl
+*.png
